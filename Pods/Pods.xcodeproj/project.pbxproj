@@ -3,38 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01A904027A2589363AEEF7492E03492C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		07B5424BA4D782588F58FCF553DE7C61 /* InAppReceiptVerificator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7EB005286DCE4B3A2034F44594C97 /* InAppReceiptVerificator.swift */; };
-		08564B854369C511113E89589020BCFD /* ProductsInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91348E55F4E7BD0FC38DE5165FAE759A /* ProductsInfoController.swift */; };
-		2D72A788AD25B725E923690C4A8A4E23 /* InAppProductQueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E75E3F3FCA86160A2868A4C029E12 /* InAppProductQueryRequest.swift */; };
-		31A5B52ADB7ED8AEBB2E9468537AAC98 /* Pods-LotteryAppTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09585481F7F988A11DB213EFCBBE5A51 /* Pods-LotteryAppTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37B11FD3E96A091ADF084EEF74C6ECDB /* InAppReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63841D4E48B64306BE426C08EFDA7FE /* InAppReceipt.swift */; };
-		4442A6EA083359863A9228171CDB7595 /* SwiftyStoreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C00C7AA1ED2316CEC4D7A429B8FAB97B /* SwiftyStoreKit-dummy.m */; };
-		4A6EF4CA7697B38912999363C69C0B65 /* InAppReceiptRefreshRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD213509A71A76069D023746E2DF420 /* InAppReceiptRefreshRequest.swift */; };
-		4AFEC7534F59DD7B907A18A2D62CF686 /* Pods-LotteryAppTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 173AC2F92844340A14C97B27A8807D27 /* Pods-LotteryAppTest-dummy.m */; };
-		6C043EE00235F36DF31D7CB2FEFAE641 /* CompleteTransactionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39A2043A9DBCEBE4A1434BF9A8B2352 /* CompleteTransactionsController.swift */; };
-		6EE2EAD0348CD0D4D2E755C4CB05B2AA /* SKProduct+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C4E53637A8ED3464C6AA0C71F4DBF /* SKProduct+LocalizedPrice.swift */; };
-		7CB2D075A082DC888BA9353BECEC4874 /* PaymentQueueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17DBB88BBAE67668C2A34663253840D /* PaymentQueueController.swift */; };
-		7D408CDB7AA810B778E18B6FD750505C /* SwiftyStoreKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF746A0169E1462653306FF5499AA20 /* SwiftyStoreKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89FABE6718EBC3F00779EEB48E9EF6A4 /* RestorePurchasesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F5D8284FA3686B43521150110DA14 /* RestorePurchasesController.swift */; };
-		8FE393276EF5F5966A6C093A0E6B461F /* SwiftyStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F2AFA22815BE47C2C552DA7FA9566 /* SwiftyStoreKit.swift */; };
-		90CC1EA55D1283A826A101823F7E6E63 /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41758814C86D4897B2ECDDC4126781D2 /* OS.swift */; };
-		B9ED38D85077422729BC7866A526FD93 /* AppleReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B831058BE4012CFB763CF1148D017B /* AppleReceiptValidator.swift */; };
-		DB02F1E3770F998B34B0A0F5E240C369 /* PaymentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677D7921CCDCAEB30DE5141D7F5DC573 /* PaymentsController.swift */; };
-		DC312C82B4B1AE9AA13585A3ABF1FECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E4CE9CA3C521E4C71DF43CCC40BAB391 /* SwiftyStoreKit+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F2E7D57558BA496C21E6F54F77D31A /* SwiftyStoreKit+Types.swift */; };
+		031EFBD5C371D4CC2BF96B0DC09E59B6 /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41758814C86D4897B2ECDDC4126781D2 /* OS.swift */; };
+		1CEA4F92F82F52E3EA3CEFF6D20A9C89 /* InAppReceiptRefreshRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD213509A71A76069D023746E2DF420 /* InAppReceiptRefreshRequest.swift */; };
+		3E0AB6084BF395F6F2F09C8C9E3D0585 /* SwiftyStoreKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF746A0169E1462653306FF5499AA20 /* SwiftyStoreKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		402E2009478E14B05B17369F8327C10B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		44C9F9E05808400D56FB580D175C51A4 /* InAppReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63841D4E48B64306BE426C08EFDA7FE /* InAppReceipt.swift */; };
+		5019026BBDA3ED74278E64D0DA44D93B /* ProductsInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91348E55F4E7BD0FC38DE5165FAE759A /* ProductsInfoController.swift */; };
+		6901146A71C21981D687C3EA6E8BFDB5 /* Pods-LotteryAppTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 173AC2F92844340A14C97B27A8807D27 /* Pods-LotteryAppTest-dummy.m */; };
+		693C5F9B3A5B347FAF9B3B5E14FD99ED /* Pods-LotteryAppTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09585481F7F988A11DB213EFCBBE5A51 /* Pods-LotteryAppTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7122015670C10AECB94AAACF3BF3E0BA /* SwiftyStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F2AFA22815BE47C2C552DA7FA9566 /* SwiftyStoreKit.swift */; };
+		71FB7AE3703B64CA30EC75F30D73F3C5 /* PaymentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677D7921CCDCAEB30DE5141D7F5DC573 /* PaymentsController.swift */; };
+		76F411CD399A5C0399D51B6A67B3F91E /* CompleteTransactionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39A2043A9DBCEBE4A1434BF9A8B2352 /* CompleteTransactionsController.swift */; };
+		7DF58F8F178BB1E2CD5F66D20466F07A /* RestorePurchasesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F5D8284FA3686B43521150110DA14 /* RestorePurchasesController.swift */; };
+		8DCDB2ED67899AA73BDA9A33D7A53044 /* SKProduct+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C4E53637A8ED3464C6AA0C71F4DBF /* SKProduct+LocalizedPrice.swift */; };
+		948D0B57529EA8AA9F7A246EA1AB0D3E /* SwiftyStoreKit+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F2E7D57558BA496C21E6F54F77D31A /* SwiftyStoreKit+Types.swift */; };
+		98F3A7EF387A7F321E32FF7EF2CECB19 /* PaymentQueueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17DBB88BBAE67668C2A34663253840D /* PaymentQueueController.swift */; };
+		A785F0881C1322C5CEE94C7C8CD64070 /* AppleReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B831058BE4012CFB763CF1148D017B /* AppleReceiptValidator.swift */; };
+		EBECDF0B9651D33BC51B25683D51D1BE /* InAppReceiptVerificator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7EB005286DCE4B3A2034F44594C97 /* InAppReceiptVerificator.swift */; };
+		F30B52DC726E2C22D712F2E35B67D503 /* SwiftyStoreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C00C7AA1ED2316CEC4D7A429B8FAB97B /* SwiftyStoreKit-dummy.m */; };
+		F883529172AB3F6F487A780766A773D8 /* InAppProductQueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E75E3F3FCA86160A2868A4C029E12 /* InAppProductQueryRequest.swift */; };
+		FB432D4B3726B3A5B450912A50B97D7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		52DC11BF1BB997417F40F875B551D99A /* PBXContainerItemProxy */ = {
+		AFEF72B3BA2E7723E51F17EA038F8E69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B481B7F15EBADF1F76132E7F41AA7C32;
+			remoteGlobalIDString = FF2381A10624B582A8E0978AF5E6736A;
 			remoteInfo = SwiftyStoreKit;
 		};
 /* End PBXContainerItemProxy section */
@@ -50,16 +50,16 @@
 		2E1008C3160C86AB23ECB44DA7C481B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4003047DDCFA2237A88627E3216E0364 /* Pods-LotteryAppTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LotteryAppTest-resources.sh"; sourceTree = "<group>"; };
 		41758814C86D4897B2ECDDC4126781D2 /* OS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OS.swift; path = SwiftyStoreKit/OS.swift; sourceTree = "<group>"; };
-		4A609D2CCE0AF819DE1680492B1C63D3 /* SwiftyStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A609D2CCE0AF819DE1680492B1C63D3 /* SwiftyStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyStoreKit.framework; path = SwiftyStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E7EB005286DCE4B3A2034F44594C97 /* InAppReceiptVerificator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceiptVerificator.swift; path = SwiftyStoreKit/InAppReceiptVerificator.swift; sourceTree = "<group>"; };
 		587D87A2F8F13BAE978B19C34E581082 /* Pods-LotteryAppTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LotteryAppTest.debug.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		61DB6CE38E339317EBE413370E9CE3C9 /* SwiftyStoreKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyStoreKit.modulemap; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		677D7921CCDCAEB30DE5141D7F5DC573 /* PaymentsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentsController.swift; path = SwiftyStoreKit/PaymentsController.swift; sourceTree = "<group>"; };
 		7A1ADC04D557D3BC1774DD6061553AD2 /* Pods-LotteryAppTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LotteryAppTest-frameworks.sh"; sourceTree = "<group>"; };
 		817C4E53637A8ED3464C6AA0C71F4DBF /* SKProduct+LocalizedPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SKProduct+LocalizedPrice.swift"; path = "SwiftyStoreKit/SKProduct+LocalizedPrice.swift"; sourceTree = "<group>"; };
 		91348E55F4E7BD0FC38DE5165FAE759A /* ProductsInfoController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductsInfoController.swift; path = SwiftyStoreKit/ProductsInfoController.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		970E75E3F3FCA86160A2868A4C029E12 /* InAppProductQueryRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppProductQueryRequest.swift; path = SwiftyStoreKit/InAppProductQueryRequest.swift; sourceTree = "<group>"; };
 		9C758616E14B847601EC0F7B10A316B4 /* Pods-LotteryAppTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LotteryAppTest-acknowledgements.plist"; sourceTree = "<group>"; };
 		A17DBB88BBAE67668C2A34663253840D /* PaymentQueueController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentQueueController.swift; path = SwiftyStoreKit/PaymentQueueController.swift; sourceTree = "<group>"; };
@@ -72,24 +72,24 @@
 		F63841D4E48B64306BE426C08EFDA7FE /* InAppReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceipt.swift; path = SwiftyStoreKit/InAppReceipt.swift; sourceTree = "<group>"; };
 		FA6752FA38DD348629FBC8BF7852EFE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB1417C09A86283B626375E73D404EB7 /* SwiftyStoreKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyStoreKit.xcconfig; sourceTree = "<group>"; };
-		FCAECF10EFC034972ABBEA5096CDF670 /* Pods_LotteryAppTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LotteryAppTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAECF10EFC034972ABBEA5096CDF670 /* Pods_LotteryAppTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LotteryAppTest.framework; path = "Pods-LotteryAppTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF746A0169E1462653306FF5499AA20 /* SwiftyStoreKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyStoreKit-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		06FB58203671421A12262066D2CE7C35 /* Frameworks */ = {
+		1E87D4689E5EF217E0B2961CCEA57ED9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01A904027A2589363AEEF7492E03492C /* Foundation.framework in Frameworks */,
+				FB432D4B3726B3A5B450912A50B97D7D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EED4B0608D070D9B540770A63E6FE7B /* Frameworks */ = {
+		BCDBC4B29188E47732EDCA1C65744D78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC312C82B4B1AE9AA13585A3ABF1FECB /* Foundation.framework in Frameworks */,
+				402E2009478E14B05B17369F8327C10B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +113,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		6584775C5953664CF7D7B58B55D55643 /* SwiftyStoreKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +140,7 @@
 				28F2E7D57558BA496C21E6F54F77D31A /* SwiftyStoreKit+Types.swift */,
 				8C1F6B0B280DD537F0CEC98F86DA0B4A /* Support Files */,
 			);
+			name = SwiftyStoreKit;
 			path = SwiftyStoreKit;
 			sourceTree = "<group>";
 		};
@@ -189,66 +198,60 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		361F097A5DC6E49A69C87326123D59E6 /* Headers */ = {
+		1F5BD525D418F9E1FB91B99064D06E75 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D408CDB7AA810B778E18B6FD750505C /* SwiftyStoreKit-umbrella.h in Headers */,
+				693C5F9B3A5B347FAF9B3B5E14FD99ED /* Pods-LotteryAppTest-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1BB4F8EEEDE474393FB1FE64FDF74EB /* Headers */ = {
+		23C047D891B9D7D9CA8D1F19C0285152 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31A5B52ADB7ED8AEBB2E9468537AAC98 /* Pods-LotteryAppTest-umbrella.h in Headers */,
+				3E0AB6084BF395F6F2F09C8C9E3D0585 /* SwiftyStoreKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4DDC01AF0C7B8A8BAF241C7EF5EE1594 /* Pods-LotteryAppTest */ = {
+		00968A1F292797F7838E733666FF1B6B /* Pods-LotteryAppTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88803D079359FF88B7C800B2F2C96FB8 /* Build configuration list for PBXNativeTarget "Pods-LotteryAppTest" */;
+			buildConfigurationList = 911B038646F58A18E3DB577D55D76A99 /* Build configuration list for PBXNativeTarget "Pods-LotteryAppTest" */;
 			buildPhases = (
-				0A832D4448407F2B3DF58FD82D20B17E /* Sources */,
-				2EED4B0608D070D9B540770A63E6FE7B /* Frameworks */,
-				C1BB4F8EEEDE474393FB1FE64FDF74EB /* Headers */,
+				1F5BD525D418F9E1FB91B99064D06E75 /* Headers */,
+				268455000EAEF2EB54F2FB39116765D8 /* Sources */,
+				1E87D4689E5EF217E0B2961CCEA57ED9 /* Frameworks */,
+				C25FFA64ED8DB561BEC35135DA2742B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46C3E93BA1875E0C2DE48F6DFE3B057F /* PBXTargetDependency */,
+				D678CDA08B8AAD2B81736AAEC8E8774F /* PBXTargetDependency */,
 			);
 			name = "Pods-LotteryAppTest";
 			productName = "Pods-LotteryAppTest";
 			productReference = FCAECF10EFC034972ABBEA5096CDF670 /* Pods_LotteryAppTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B481B7F15EBADF1F76132E7F41AA7C32 /* SwiftyStoreKit */ = {
+		FF2381A10624B582A8E0978AF5E6736A /* SwiftyStoreKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BD006040BFC89D9AD9DFFECAFF6E3F6 /* Build configuration list for PBXNativeTarget "SwiftyStoreKit" */;
+			buildConfigurationList = 8A08CEC386D1F0F16ED60B2B03CC3D0E /* Build configuration list for PBXNativeTarget "SwiftyStoreKit" */;
 			buildPhases = (
-				EFF7639B7AD089256C08CD66F8D1B3A5 /* Sources */,
-				06FB58203671421A12262066D2CE7C35 /* Frameworks */,
-				361F097A5DC6E49A69C87326123D59E6 /* Headers */,
+				23C047D891B9D7D9CA8D1F19C0285152 /* Headers */,
+				3FEDF8DCAD7F8FE09AE58EDE5269AD6A /* Sources */,
+				BCDBC4B29188E47732EDCA1C65744D78 /* Frameworks */,
+				09989BA4BC7D1CBCA46CBD115EE4CEA3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -267,11 +270,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					B481B7F15EBADF1F76132E7F41AA7C32 = {
-						LastSwiftMigration = 1010;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -285,91 +283,73 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DDC01AF0C7B8A8BAF241C7EF5EE1594 /* Pods-LotteryAppTest */,
-				B481B7F15EBADF1F76132E7F41AA7C32 /* SwiftyStoreKit */,
+				00968A1F292797F7838E733666FF1B6B /* Pods-LotteryAppTest */,
+				FF2381A10624B582A8E0978AF5E6736A /* SwiftyStoreKit */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		0A832D4448407F2B3DF58FD82D20B17E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		09989BA4BC7D1CBCA46CBD115EE4CEA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AFEC7534F59DD7B907A18A2D62CF686 /* Pods-LotteryAppTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EFF7639B7AD089256C08CD66F8D1B3A5 /* Sources */ = {
+		C25FFA64ED8DB561BEC35135DA2742B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268455000EAEF2EB54F2FB39116765D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9ED38D85077422729BC7866A526FD93 /* AppleReceiptValidator.swift in Sources */,
-				6C043EE00235F36DF31D7CB2FEFAE641 /* CompleteTransactionsController.swift in Sources */,
-				2D72A788AD25B725E923690C4A8A4E23 /* InAppProductQueryRequest.swift in Sources */,
-				37B11FD3E96A091ADF084EEF74C6ECDB /* InAppReceipt.swift in Sources */,
-				4A6EF4CA7697B38912999363C69C0B65 /* InAppReceiptRefreshRequest.swift in Sources */,
-				07B5424BA4D782588F58FCF553DE7C61 /* InAppReceiptVerificator.swift in Sources */,
-				90CC1EA55D1283A826A101823F7E6E63 /* OS.swift in Sources */,
-				7CB2D075A082DC888BA9353BECEC4874 /* PaymentQueueController.swift in Sources */,
-				DB02F1E3770F998B34B0A0F5E240C369 /* PaymentsController.swift in Sources */,
-				08564B854369C511113E89589020BCFD /* ProductsInfoController.swift in Sources */,
-				89FABE6718EBC3F00779EEB48E9EF6A4 /* RestorePurchasesController.swift in Sources */,
-				6EE2EAD0348CD0D4D2E755C4CB05B2AA /* SKProduct+LocalizedPrice.swift in Sources */,
-				E4CE9CA3C521E4C71DF43CCC40BAB391 /* SwiftyStoreKit+Types.swift in Sources */,
-				4442A6EA083359863A9228171CDB7595 /* SwiftyStoreKit-dummy.m in Sources */,
-				8FE393276EF5F5966A6C093A0E6B461F /* SwiftyStoreKit.swift in Sources */,
+				6901146A71C21981D687C3EA6E8BFDB5 /* Pods-LotteryAppTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEDF8DCAD7F8FE09AE58EDE5269AD6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A785F0881C1322C5CEE94C7C8CD64070 /* AppleReceiptValidator.swift in Sources */,
+				76F411CD399A5C0399D51B6A67B3F91E /* CompleteTransactionsController.swift in Sources */,
+				F883529172AB3F6F487A780766A773D8 /* InAppProductQueryRequest.swift in Sources */,
+				44C9F9E05808400D56FB580D175C51A4 /* InAppReceipt.swift in Sources */,
+				1CEA4F92F82F52E3EA3CEFF6D20A9C89 /* InAppReceiptRefreshRequest.swift in Sources */,
+				EBECDF0B9651D33BC51B25683D51D1BE /* InAppReceiptVerificator.swift in Sources */,
+				031EFBD5C371D4CC2BF96B0DC09E59B6 /* OS.swift in Sources */,
+				98F3A7EF387A7F321E32FF7EF2CECB19 /* PaymentQueueController.swift in Sources */,
+				71FB7AE3703B64CA30EC75F30D73F3C5 /* PaymentsController.swift in Sources */,
+				5019026BBDA3ED74278E64D0DA44D93B /* ProductsInfoController.swift in Sources */,
+				7DF58F8F178BB1E2CD5F66D20466F07A /* RestorePurchasesController.swift in Sources */,
+				8DCDB2ED67899AA73BDA9A33D7A53044 /* SKProduct+LocalizedPrice.swift in Sources */,
+				948D0B57529EA8AA9F7A246EA1AB0D3E /* SwiftyStoreKit+Types.swift in Sources */,
+				F30B52DC726E2C22D712F2E35B67D503 /* SwiftyStoreKit-dummy.m in Sources */,
+				7122015670C10AECB94AAACF3BF3E0BA /* SwiftyStoreKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46C3E93BA1875E0C2DE48F6DFE3B057F /* PBXTargetDependency */ = {
+		D678CDA08B8AAD2B81736AAEC8E8774F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyStoreKit;
-			target = B481B7F15EBADF1F76132E7F41AA7C32 /* SwiftyStoreKit */;
-			targetProxy = 52DC11BF1BB997417F40F875B551D99A /* PBXContainerItemProxy */;
+			target = FF2381A10624B582A8E0978AF5E6736A /* SwiftyStoreKit */;
+			targetProxy = AFEF72B3BA2E7723E51F17EA038F8E69 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AD9458B95E9FA5568CE070B9C918708 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2F5E2EFF77E29B1A4F94EF7CE0E20C3 /* Pods-LotteryAppTest.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LotteryAppTest/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LotteryAppTest/Pods-LotteryAppTest.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -423,7 +403,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -432,7 +413,75 @@
 			};
 			name = Debug;
 		};
-		2530A0025A26835676E072AAA85E4F0E /* Debug */ = {
+		90AAFA32605E3C49331353CE30773C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2F5E2EFF77E29B1A4F94EF7CE0E20C3 /* Pods-LotteryAppTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LotteryAppTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LotteryAppTest/Pods-LotteryAppTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95145AE2144248C28B867B40278A0B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1417C09A86283B626375E73D404EB7 /* SwiftyStoreKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyStoreKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyStoreKit;
+				PRODUCT_NAME = SwiftyStoreKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96DC1E71429A712BDFDD0B3A11DABB63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 587D87A2F8F13BAE978B19C34E581082 /* Pods-LotteryAppTest.debug.xcconfig */;
 			buildSettings = {
@@ -467,7 +516,7 @@
 			};
 			name = Debug;
 		};
-		B3A39D023A95067B697B63164BFCA470 /* Debug */ = {
+		ADB3D9E1B4F5549D09B6C2FE1CC2E4E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB1417C09A86283B626375E73D404EB7 /* SwiftyStoreKit.xcconfig */;
 			buildSettings = {
@@ -491,39 +540,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CF14DB57B06FEE3F6750A46CFE5E6CCB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB1417C09A86283B626375E73D404EB7 /* SwiftyStoreKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyStoreKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyStoreKit;
-				PRODUCT_NAME = SwiftyStoreKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -532,7 +550,7 @@
 			};
 			name = Release;
 		};
-		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -584,6 +602,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -593,29 +612,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BD006040BFC89D9AD9DFFECAFF6E3F6 /* Build configuration list for PBXNativeTarget "SwiftyStoreKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B3A39D023A95067B697B63164BFCA470 /* Debug */,
-				CF14DB57B06FEE3F6750A46CFE5E6CCB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
-				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88803D079359FF88B7C800B2F2C96FB8 /* Build configuration list for PBXNativeTarget "Pods-LotteryAppTest" */ = {
+		8A08CEC386D1F0F16ED60B2B03CC3D0E /* Build configuration list for PBXNativeTarget "SwiftyStoreKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2530A0025A26835676E072AAA85E4F0E /* Debug */,
-				0AD9458B95E9FA5568CE070B9C918708 /* Release */,
+				95145AE2144248C28B867B40278A0B1C /* Debug */,
+				ADB3D9E1B4F5549D09B6C2FE1CC2E4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911B038646F58A18E3DB577D55D76A99 /* Build configuration list for PBXNativeTarget "Pods-LotteryAppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96DC1E71429A712BDFDD0B3A11DABB63 /* Debug */,
+				90AAFA32605E3C49331353CE30773C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
