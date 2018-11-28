@@ -1,0 +1,6 @@
+framework module Pods_LotteryAppTest {
+  umbrella header "Pods-LotteryAppTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
