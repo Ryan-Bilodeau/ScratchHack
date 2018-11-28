@@ -24,16 +24,15 @@ class StartViewController: UIViewController {
     var unownedStates = [USAState]()
     var ownedStates = [USAState]()
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //Change back to load real products
         IAPService.shared.stateDelegate = self
-        IAPService.shared.retrieveProductsInfo(products: IAPProduct.productIDs)
+        IAPService.shared.retrieveProductsInfo(products: ConfigData.productIDs)
         animateCircles()
         
-//        unownedStates = State.getTestUnpurchasedStates()
-//        ownedStates = State.getTestPurchasedStates()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 20.0) {
             if self.loading && !self.didSegue{
@@ -43,9 +42,7 @@ class StartViewController: UIViewController {
             }
         }
     }
-//    override func viewDidAppear(_ animated: Bool) {
-//        performSegue(withIdentifier: "showStateView", sender: nil)
-//    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
         
@@ -127,7 +124,7 @@ class StartViewController: UIViewController {
                 self.Circle7.transform = CGAffineTransform(scaleX: 1, y: 1)
             }, completion: { (true) in
                 print(self.unownedStates.count)
-                if (self.unownedStates.count + self.ownedStates.count >= IAPProduct.productIDs.count) {
+                if (self.unownedStates.count + self.ownedStates.count >= ConfigData.productIDs.count) {
                     self.loading = false
                 }
                 if (self.loading) {

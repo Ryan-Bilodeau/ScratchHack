@@ -24,7 +24,6 @@
 		AF410D02203FBE1A00F5585F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF410D01203FBE1A00F5585F /* StartViewController.swift */; };
 		AF410D04203FC59900F5585F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF410D03203FC59900F5585F /* MainViewController.swift */; };
 		AF47739C2066F4C500F04A8F /* IAPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47739B2066F4C500F04A8F /* IAPService.swift */; };
-		AF47739E2066F7B300F04A8F /* IAPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47739D2066F7B300F04A8F /* IAPProduct.swift */; };
 		AF4773A0206729D300F04A8F /* USAState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47739F206729D300F04A8F /* USAState.swift */; };
 		AF47C9CE207EC003008A13CE /* HelpUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47C9CD207EC003008A13CE /* HelpUIView.swift */; };
 		AF49A7B8206AC52800C54548 /* GetTicketsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF49A7B7206AC52800C54548 /* GetTicketsHandler.swift */; };
@@ -32,6 +31,7 @@
 		AF77B770203E65B500371097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF77B76E203E65B500371097 /* Main.storyboard */; };
 		AF77B775203E65B500371097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF77B773203E65B500371097 /* LaunchScreen.storyboard */; };
 		AF9AFA8720867A150079D862 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9AFA8620867A150079D862 /* Reachability.swift */; };
+		AF9BFA3621AE57D400688CC9 /* ConfigData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BFA3521AE57D400688CC9 /* ConfigData.swift */; };
 		AFAE8419207D7FB70008A164 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE8418207D7FB70008A164 /* HelpViewController.swift */; };
 		AFBB10392065FFE20080A3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBB10382065FFE20080A3F1 /* Assets.xcassets */; };
 		AFD174BA20678A840090F035 /* UnpurchasedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD174B920678A840090F035 /* UnpurchasedUIView.swift */; };
@@ -61,7 +61,6 @@
 		AF410D01203FBE1A00F5585F /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		AF410D03203FC59900F5585F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		AF47739B2066F4C500F04A8F /* IAPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPService.swift; sourceTree = "<group>"; };
-		AF47739D2066F7B300F04A8F /* IAPProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPProduct.swift; sourceTree = "<group>"; };
 		AF47739F206729D300F04A8F /* USAState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USAState.swift; sourceTree = "<group>"; };
 		AF47C9CD207EC003008A13CE /* HelpUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpUIView.swift; sourceTree = "<group>"; };
 		AF49A7B7206AC52800C54548 /* GetTicketsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTicketsHandler.swift; sourceTree = "<group>"; };
@@ -71,6 +70,7 @@
 		AF77B774203E65B500371097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF77B776203E65B500371097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF9AFA8620867A150079D862 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		AF9BFA3521AE57D400688CC9 /* ConfigData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigData.swift; sourceTree = "<group>"; };
 		AFAE8418207D7FB70008A164 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		AFBB10382065FFE20080A3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = LotteryAppTest/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		AFD174B920678A840090F035 /* UnpurchasedUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnpurchasedUIView.swift; sourceTree = "<group>"; };
@@ -184,11 +184,11 @@
 				AF05A293203F635100A289BC /* FormattedTicket.swift */,
 				AFFF0E6D2053A11600A44B6E /* Protocols.swift */,
 				AF47739B2066F4C500F04A8F /* IAPService.swift */,
-				AF47739D2066F7B300F04A8F /* IAPProduct.swift */,
 				AF47739F206729D300F04A8F /* USAState.swift */,
 				AF49A7B7206AC52800C54548 /* GetTicketsHandler.swift */,
 				AF25546D207007DB00585F9E /* Extensions.swift */,
 				AF9AFA8620867A150079D862 /* Reachability.swift */,
+				AF9BFA3521AE57D400688CC9 /* ConfigData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -329,6 +329,7 @@
 				AF410D02203FBE1A00F5585F /* StartViewController.swift in Sources */,
 				AF77B76B203E65B500371097 /* AppDelegate.swift in Sources */,
 				AF05A294203F635100A289BC /* FormattedTicket.swift in Sources */,
+				AF9BFA3621AE57D400688CC9 /* ConfigData.swift in Sources */,
 				AFFF0E6C2053893900A44B6E /* StateViewController.swift in Sources */,
 				AF0FD8CE2067F0D10026B065 /* PurchasedUIButton.swift in Sources */,
 				AF47C9CE207EC003008A13CE /* HelpUIView.swift in Sources */,
@@ -346,7 +347,6 @@
 				AF47739C2066F4C500F04A8F /* IAPService.swift in Sources */,
 				AF0FD8D02067F29B0026B065 /* PurchasedUIView.swift in Sources */,
 				AFD174BA20678A840090F035 /* UnpurchasedUIView.swift in Sources */,
-				AF47739E2066F7B300F04A8F /* IAPProduct.swift in Sources */,
 				AF410D04203FC59900F5585F /* MainViewController.swift in Sources */,
 				AFD174BC2067AA280090F035 /* UnpurchasedUIButton.swift in Sources */,
 			);

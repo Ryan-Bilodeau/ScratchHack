@@ -9,9 +9,11 @@
 import UIKit
 import SwiftyStoreKit
 
+// The logic/structure for this class was mostly taken from YouTube here:
+// https://www.youtube.com/watch?v=o3hJ0rY1NNw
 class IAPService {
     static let shared = IAPService()
-    let sharedSecret = "21640e0b2cd14a7ebd269faed2ac0dd2"
+    let sharedSecret = ConfigData.SwiftyStoreKitSharedSecret
     
     var purchasedStateIds = [String]()
     var stateIds = [String]()

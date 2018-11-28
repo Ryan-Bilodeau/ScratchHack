@@ -1,3 +1,3 @@
 .DS_Store
-ConfigData.swift
-USAState.swift
+LotteryAppTest/Model/ConfigData.swift
+LotteryAppTest/Model/USAState.swift

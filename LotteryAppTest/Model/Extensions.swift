@@ -10,6 +10,8 @@ import Foundation
 import UIKit
 
 extension NSLayoutConstraint {
+    // This function was taken from GitHub here:
+    // https://gist.github.com/leilee/a3c157b125916e0205405a0b543f090a
     static func changeMultiplier(_ constraint: NSLayoutConstraint, multiplier: CGFloat) -> NSLayoutConstraint {
         let newConstraint = NSLayoutConstraint(
             item: constraint.firstItem!,
@@ -30,6 +32,8 @@ extension NSLayoutConstraint {
 }
 
 extension UIButton {
+    // This function was taken from Stack Overflow here:
+    // https://stackoverflow.com/questions/16801948/fade-between-two-uibutton-images/39966233
     func changeImageAnimated(image: UIImage?, withDuration: CFTimeInterval) {
         guard let imageView = self.imageView, let currentImage = imageView.image, let newImage = image else {
             return

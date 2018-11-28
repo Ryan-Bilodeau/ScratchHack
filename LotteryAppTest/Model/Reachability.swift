@@ -10,6 +10,8 @@ import Foundation
 import SystemConfiguration
 
 public class Reachability {
+    // This function was taken from Stack Overflow here:
+    // https://stackoverflow.com/questions/30743408/check-for-internet-connection-with-swift
     class func isConnectedToNetwork() -> Bool {
         
         var zeroAddress = sockaddr_in()
