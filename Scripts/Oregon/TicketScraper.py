@@ -3,10 +3,7 @@ import pymysql
 import html
 import datetime
 
-conn = pymysql.connect(host="",
-                       user="",
-                       password="",
-                       db="")
+conn = ''
 cursor = conn.cursor()
 
 driver = webdriver.Chrome(executable_path='C:\Python36-32\Scripts\chromedriver.exe')
