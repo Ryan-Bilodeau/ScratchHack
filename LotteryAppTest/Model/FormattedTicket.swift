@@ -12,18 +12,14 @@ import UIKit
 //Contructed from a JSONTicket object
 struct FormattedTicket {
     let price: Int
-    let number: Int
+    let number: Int?
     let name: String
-    let topPrizesRemaining: Int
-    let rank: Int
-    
-    var bestInPriceRange: Bool!
-    var useGameNumbers: Bool {
-        return number == -1 ? false : true
-    }
+    let odds: Double
+    let oddsRank: Int
+    let statsRank: Int?
     
     init(jsonTicket: JSONTicket) {
-        self.price = Int(jsonTicket.price) ?? -1
+        self.price = Int(jsonTicket.price)!
         self.number = Int(jsonTicket.number) ?? -1
         self.name = jsonTicket.name
         self.topPrizesRemaining = Int(jsonTicket.topPrizesRemaining) ?? -1

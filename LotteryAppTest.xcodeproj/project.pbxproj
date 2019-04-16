@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		38C0AA855D8BD29057972D60 /* Pods_LotteryAppTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA438156D7FC48231EFF2BF4 /* Pods_LotteryAppTest.framework */; };
 		AF05A292203F627700A289BC /* JSONTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF05A291203F627700A289BC /* JSONTicket.swift */; };
-		AF05A294203F635100A289BC /* FormattedTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF05A293203F635100A289BC /* FormattedTicket.swift */; };
-		AF0FD8CE2067F0D10026B065 /* PurchasedUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0FD8CD2067F0D10026B065 /* PurchasedUIButton.swift */; };
-		AF0FD8D02067F29B0026B065 /* PurchasedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0FD8CF2067F29B0026B065 /* PurchasedUIView.swift */; };
-		AF11F2DA2043953B0087B25D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF11F2D92043953B0087B25D /* CustomButton.swift */; };
 		AF12A88920818DCF0045B0BB /* RightToLeftSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF12A88820818DCF0045B0BB /* RightToLeftSegue.swift */; };
 		AF21D58D20420CE0004C70B8 /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF21D58C20420CE0004C70B8 /* TicketTableViewCell.swift */; };
 		AF21D593204251A5004C70B8 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF21D58E204251A3004C70B8 /* Poppins-Bold.ttf */; };
@@ -20,25 +16,24 @@
 		AF21D595204251A5004C70B8 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF21D590204251A4004C70B8 /* Poppins-Light.ttf */; };
 		AF21D596204251A5004C70B8 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF21D591204251A4004C70B8 /* Poppins-Regular.ttf */; };
 		AF21D597204251A5004C70B8 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF21D592204251A4004C70B8 /* Poppins-Medium.ttf */; };
-		AF25546E207007DB00585F9E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25546D207007DB00585F9E /* Extensions.swift */; };
-		AF410D02203FBE1A00F5585F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF410D01203FBE1A00F5585F /* StartViewController.swift */; };
-		AF410D04203FC59900F5585F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF410D03203FC59900F5585F /* MainViewController.swift */; };
-		AF47739C2066F4C500F04A8F /* IAPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47739B2066F4C500F04A8F /* IAPService.swift */; };
-		AF4773A0206729D300F04A8F /* USAState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47739F206729D300F04A8F /* USAState.swift */; };
-		AF47C9CE207EC003008A13CE /* HelpUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47C9CD207EC003008A13CE /* HelpUIView.swift */; };
-		AF49A7B8206AC52800C54548 /* GetTicketsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF49A7B7206AC52800C54548 /* GetTicketsHandler.swift */; };
+		AF45040A223D66C200F1326E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF450409223D66C200F1326E /* FirstViewController.swift */; };
+		AF45040C223D719E00F1326E /* StateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF45040B223D719E00F1326E /* StateCollectionViewCell.swift */; };
+		AF45040E223D748200F1326E /* StateUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF45040D223D748200F1326E /* StateUIButton.swift */; };
+		AF450410223DA04F00F1326E /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF45040F223DA04F00F1326E /* States.swift */; };
 		AF77B76B203E65B500371097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77B76A203E65B500371097 /* AppDelegate.swift */; };
 		AF77B770203E65B500371097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF77B76E203E65B500371097 /* Main.storyboard */; };
 		AF77B775203E65B500371097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF77B773203E65B500371097 /* LaunchScreen.storyboard */; };
+		AF803D79224702780040F3D4 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF803D78224702780040F3D4 /* Strings.swift */; };
+		AF86B225225288EF00724C19 /* SortUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86B224225288EF00724C19 /* SortUIButton.swift */; };
 		AF9AFA8720867A150079D862 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9AFA8620867A150079D862 /* Reachability.swift */; };
-		AF9BFA3621AE57D400688CC9 /* ConfigData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BFA3521AE57D400688CC9 /* ConfigData.swift */; };
-		AFAE8419207D7FB70008A164 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE8418207D7FB70008A164 /* HelpViewController.swift */; };
+		AFA2EC752247E7830096AA02 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA2EC742247E7830096AA02 /* FirstTableViewCell.swift */; };
+		AFA2EC772247EE570096AA02 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA2EC762247EE570096AA02 /* SecondTableViewCell.swift */; };
+		AFABA6AA2241B61F00CC2380 /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFABA6A92241B61F00CC2380 /* TicketsViewController.swift */; };
 		AFBB10392065FFE20080A3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBB10382065FFE20080A3F1 /* Assets.xcassets */; };
-		AFD174BA20678A840090F035 /* UnpurchasedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD174B920678A840090F035 /* UnpurchasedUIView.swift */; };
-		AFD174BC2067AA280090F035 /* UnpurchasedUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD174BB2067AA280090F035 /* UnpurchasedUIButton.swift */; };
+		AFCFAAE82256EB51002B1859 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFAAE72256EB51002B1859 /* OnboardingView.swift */; };
+		AFDE359D22442EEE00EF055E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE359C22442EEE00EF055E /* DataManager.swift */; };
 		AFF250162082836800FD3995 /* CenterToRightSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF250152082836800FD3995 /* CenterToRightSegue.swift */; };
 		AFFF0E6620535C3800A44B6E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFF0E6520535C3800A44B6E /* StoreKit.framework */; };
-		AFFF0E6C2053893900A44B6E /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF0E6B2053893900A44B6E /* StateViewController.swift */; };
 		AFFF0E6E2053A11600A44B6E /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF0E6D2053A11600A44B6E /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,10 +41,6 @@
 		359BBE2DDF144F2A31318E59 /* Pods-LotteryAppTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotteryAppTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-LotteryAppTest/Pods-LotteryAppTest.release.xcconfig"; sourceTree = "<group>"; };
 		67B440F43A970A27693BDFF1 /* Pods-LotteryAppTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotteryAppTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LotteryAppTest/Pods-LotteryAppTest.debug.xcconfig"; sourceTree = "<group>"; };
 		AF05A291203F627700A289BC /* JSONTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTicket.swift; sourceTree = "<group>"; };
-		AF05A293203F635100A289BC /* FormattedTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedTicket.swift; sourceTree = "<group>"; };
-		AF0FD8CD2067F0D10026B065 /* PurchasedUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedUIButton.swift; sourceTree = "<group>"; };
-		AF0FD8CF2067F29B0026B065 /* PurchasedUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedUIView.swift; sourceTree = "<group>"; };
-		AF11F2D92043953B0087B25D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		AF12A88820818DCF0045B0BB /* RightToLeftSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightToLeftSegue.swift; sourceTree = "<group>"; };
 		AF21D58C20420CE0004C70B8 /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
 		AF21D58E204251A3004C70B8 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
@@ -57,27 +48,26 @@
 		AF21D590204251A4004C70B8 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		AF21D591204251A4004C70B8 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		AF21D592204251A4004C70B8 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		AF25546D207007DB00585F9E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		AF410D01203FBE1A00F5585F /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		AF410D03203FC59900F5585F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		AF47739B2066F4C500F04A8F /* IAPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPService.swift; sourceTree = "<group>"; };
-		AF47739F206729D300F04A8F /* USAState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USAState.swift; sourceTree = "<group>"; };
-		AF47C9CD207EC003008A13CE /* HelpUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpUIView.swift; sourceTree = "<group>"; };
-		AF49A7B7206AC52800C54548 /* GetTicketsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTicketsHandler.swift; sourceTree = "<group>"; };
+		AF450409223D66C200F1326E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		AF45040B223D719E00F1326E /* StateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF45040D223D748200F1326E /* StateUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateUIButton.swift; sourceTree = "<group>"; };
+		AF45040F223DA04F00F1326E /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
 		AF77B767203E65B500371097 /* LotteryAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF77B76A203E65B500371097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF77B76F203E65B500371097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF77B774203E65B500371097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF77B776203E65B500371097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF803D78224702780040F3D4 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		AF86B224225288EF00724C19 /* SortUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortUIButton.swift; sourceTree = "<group>"; };
 		AF9AFA8620867A150079D862 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		AF9BFA3521AE57D400688CC9 /* ConfigData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigData.swift; sourceTree = "<group>"; };
-		AFAE8418207D7FB70008A164 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		AFA2EC742247E7830096AA02 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		AFA2EC762247EE570096AA02 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		AFABA6A92241B61F00CC2380 /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
 		AFBB10382065FFE20080A3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = LotteryAppTest/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		AFD174B920678A840090F035 /* UnpurchasedUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnpurchasedUIView.swift; sourceTree = "<group>"; };
-		AFD174BB2067AA280090F035 /* UnpurchasedUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnpurchasedUIButton.swift; sourceTree = "<group>"; };
+		AFCFAAE72256EB51002B1859 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		AFDE359C22442EEE00EF055E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		AFF250152082836800FD3995 /* CenterToRightSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterToRightSegue.swift; sourceTree = "<group>"; };
 		AFFF0E6520535C3800A44B6E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		AFFF0E6B2053893900A44B6E /* StateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
 		AFFF0E6D2053A11600A44B6E /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		CA438156D7FC48231EFF2BF4 /* Pods_LotteryAppTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LotteryAppTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -151,18 +141,17 @@
 		AF77B77C203E65CC00371097 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				AF410D03203FC59900F5585F /* MainViewController.swift */,
-				AFFF0E6B2053893900A44B6E /* StateViewController.swift */,
-				AF410D01203FBE1A00F5585F /* StartViewController.swift */,
 				AF21D58C20420CE0004C70B8 /* TicketTableViewCell.swift */,
-				AFD174BB2067AA280090F035 /* UnpurchasedUIButton.swift */,
-				AFD174B920678A840090F035 /* UnpurchasedUIView.swift */,
-				AF0FD8CD2067F0D10026B065 /* PurchasedUIButton.swift */,
-				AF0FD8CF2067F29B0026B065 /* PurchasedUIView.swift */,
-				AFAE8418207D7FB70008A164 /* HelpViewController.swift */,
-				AF47C9CD207EC003008A13CE /* HelpUIView.swift */,
 				AF12A88820818DCF0045B0BB /* RightToLeftSegue.swift */,
 				AFF250152082836800FD3995 /* CenterToRightSegue.swift */,
+				AF450409223D66C200F1326E /* FirstViewController.swift */,
+				AFCFAAE72256EB51002B1859 /* OnboardingView.swift */,
+				AF45040B223D719E00F1326E /* StateCollectionViewCell.swift */,
+				AF45040D223D748200F1326E /* StateUIButton.swift */,
+				AFABA6A92241B61F00CC2380 /* TicketsViewController.swift */,
+				AFA2EC742247E7830096AA02 /* FirstTableViewCell.swift */,
+				AFA2EC762247EE570096AA02 /* SecondTableViewCell.swift */,
+				AF86B224225288EF00724C19 /* SortUIButton.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,16 +168,12 @@
 		AF77B77E203E65E400371097 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AF11F2D92043953B0087B25D /* CustomButton.swift */,
 				AF05A291203F627700A289BC /* JSONTicket.swift */,
-				AF05A293203F635100A289BC /* FormattedTicket.swift */,
 				AFFF0E6D2053A11600A44B6E /* Protocols.swift */,
-				AF47739B2066F4C500F04A8F /* IAPService.swift */,
-				AF47739F206729D300F04A8F /* USAState.swift */,
-				AF49A7B7206AC52800C54548 /* GetTicketsHandler.swift */,
-				AF25546D207007DB00585F9E /* Extensions.swift */,
 				AF9AFA8620867A150079D862 /* Reachability.swift */,
-				AF9BFA3521AE57D400688CC9 /* ConfigData.swift */,
+				AF45040F223DA04F00F1326E /* States.swift */,
+				AFDE359C22442EEE00EF055E /* DataManager.swift */,
+				AF803D78224702780040F3D4 /* Strings.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -213,7 +198,7 @@
 				AF77B763203E65B500371097 /* Sources */,
 				AF77B764203E65B500371097 /* Frameworks */,
 				AF77B765203E65B500371097 /* Resources */,
-				7A988596559A36B7C6C34106 /* [CP] Embed Pods Frameworks */,
+				249468AFE75FCE527EFFFAE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,6 +268,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		249468AFE75FCE527EFFFAE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LotteryAppTest/Pods-LotteryAppTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LotteryAppTest/Pods-LotteryAppTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6E9045044859343EFF427002 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,24 +312,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7A988596559A36B7C6C34106 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LotteryAppTest/Pods-LotteryAppTest-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LotteryAppTest/Pods-LotteryAppTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -326,29 +319,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF410D02203FBE1A00F5585F /* StartViewController.swift in Sources */,
+				AF450410223DA04F00F1326E /* States.swift in Sources */,
 				AF77B76B203E65B500371097 /* AppDelegate.swift in Sources */,
-				AF05A294203F635100A289BC /* FormattedTicket.swift in Sources */,
-				AF9BFA3621AE57D400688CC9 /* ConfigData.swift in Sources */,
-				AFFF0E6C2053893900A44B6E /* StateViewController.swift in Sources */,
-				AF0FD8CE2067F0D10026B065 /* PurchasedUIButton.swift in Sources */,
-				AF47C9CE207EC003008A13CE /* HelpUIView.swift in Sources */,
 				AF21D58D20420CE0004C70B8 /* TicketTableViewCell.swift in Sources */,
-				AF11F2DA2043953B0087B25D /* CustomButton.swift in Sources */,
-				AF25546E207007DB00585F9E /* Extensions.swift in Sources */,
+				AFCFAAE82256EB51002B1859 /* OnboardingView.swift in Sources */,
+				AFA2EC772247EE570096AA02 /* SecondTableViewCell.swift in Sources */,
+				AF45040A223D66C200F1326E /* FirstViewController.swift in Sources */,
 				AFFF0E6E2053A11600A44B6E /* Protocols.swift in Sources */,
-				AF4773A0206729D300F04A8F /* USAState.swift in Sources */,
 				AF05A292203F627700A289BC /* JSONTicket.swift in Sources */,
+				AF803D79224702780040F3D4 /* Strings.swift in Sources */,
+				AFDE359D22442EEE00EF055E /* DataManager.swift in Sources */,
 				AFF250162082836800FD3995 /* CenterToRightSegue.swift in Sources */,
+				AF86B225225288EF00724C19 /* SortUIButton.swift in Sources */,
 				AF12A88920818DCF0045B0BB /* RightToLeftSegue.swift in Sources */,
-				AF49A7B8206AC52800C54548 /* GetTicketsHandler.swift in Sources */,
+				AFABA6AA2241B61F00CC2380 /* TicketsViewController.swift in Sources */,
+				AF45040E223D748200F1326E /* StateUIButton.swift in Sources */,
+				AFA2EC752247E7830096AA02 /* FirstTableViewCell.swift in Sources */,
+				AF45040C223D719E00F1326E /* StateCollectionViewCell.swift in Sources */,
 				AF9AFA8720867A150079D862 /* Reachability.swift in Sources */,
-				AFAE8419207D7FB70008A164 /* HelpViewController.swift in Sources */,
-				AF47739C2066F4C500F04A8F /* IAPService.swift in Sources */,
-				AF0FD8D02067F29B0026B065 /* PurchasedUIView.swift in Sources */,
-				AFD174BA20678A840090F035 /* UnpurchasedUIView.swift in Sources */,
-				AF410D04203FC59900F5585F /* MainViewController.swift in Sources */,
-				AFD174BC2067AA280090F035 /* UnpurchasedUIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

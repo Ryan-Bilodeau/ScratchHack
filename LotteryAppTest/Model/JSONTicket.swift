@@ -10,25 +10,64 @@ import Foundation
 
 struct JSONTicket: Decodable {
     let price: String
-    let number: String
+    let number: String?
     let name: String
-    let topPrizesRemaining: String
-    let rank: String
+    let odds: String
+    let prizesRemaining: String?
+    let averageProfit: Double?
+    let oddsRank: String
+    let statsRank: String?
+}
+
+struct FormattedTicket {
+    let price: Int
+    let number: Int?
+    let name: String
+    let odds: Double
+    let prizesRemaining: Double?
+    let averageProfit: Double?
+    let oddsRank: Int
+    let statsRank: Int?
     
-    enum CodingKeys: String, CodingKey {
-        case price = "ft_price"
-        case number = "ft_game_number"
-        case name = "ft_game_name"
-        case topPrizesRemaining = "ft_top_prizes_remaining"
-        case rank = "ft_rank"
+    init(price: Int, number: Int?, name: String, odds: Double, prizesRemaining: Double?, averageProfit: Double?, oddsRank: Int, statsRank: Int?) {
+        self.price = price
+        self.number = number
+        self.name = name
+        self.odds = odds
+        self.prizesRemaining = prizesRemaining
+        self.averageProfit = averageProfit
+        self.oddsRank = oddsRank
+        self.statsRank = statsRank
     }
     
-    init(from decoder: Decoder) throws {
-        let valueContainer = try decoder.container(keyedBy: CodingKeys.self)
-        self.price = try valueContainer.decode(String.self, forKey: CodingKeys.price)
-        self.number = try valueContainer.decode(String.self, forKey: CodingKeys.number)
-        self.name = try valueContainer.decode(String.self, forKey: CodingKeys.name)
-        self.topPrizesRemaining = try valueContainer.decode(String.self, forKey: CodingKeys.topPrizesRemaining)
-        self.rank = try valueContainer.decode(String.self, forKey: CodingKeys.rank)
+    init(jsonTicket: JSONTicket) {
+        if let number = jsonTicket.number {
+            self.number = Int(number)
+        } else {
+            self.number = nil
+        }
+        
+        if let prizesRemaining = jsonTicket.prizesRemaining {
+            self.prizesRemaining = Double(prizesRemaining)
+        } else {
+            self.prizesRemaining = nil
+        }
+        
+        if let averageProfit = jsonTicket.averageProfit {
+            self.averageProfit = averageProfit
+        } else {
+            self.averageProfit = nil
+        }
+        
+        if let statsRank = jsonTicket.statsRank {
+            self.statsRank = Int(statsRank)
+        } else {
+            self.statsRank = nil
+        }
+        
+        self.price = Int(jsonTicket.price) ?? -1
+        self.name = jsonTicket.name
+        self.odds = Double(jsonTicket.odds) ?? -1.0
+        self.oddsRank = Int(jsonTicket.oddsRank) ?? -1
     }
 }

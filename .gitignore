@@ -1,3 +1,4 @@
 .DS_Store
 LotteryAppTest/Model/ConfigData.swift
 LotteryAppTest/Model/USAState.swift
+LotteryAppTest/Model/Strings.swift

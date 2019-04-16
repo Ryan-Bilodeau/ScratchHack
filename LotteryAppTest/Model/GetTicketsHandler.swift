@@ -22,7 +22,10 @@ class GetTicketsHandler {
         
         let task = URLSession.shared.dataTask(with: ticketURL) { (data, response, error) in
             do {
-                jsonTickets = try JSONDecoder().decode([JSONTicket].self, from: data!)
+                guard let data = data  else { return }
+                
+                jsonTickets = try JSONDecoder().decode([JSONTicket].self, from: data)
+                print(jsonTickets)
                 for ticket in jsonTickets {
                     formattedTickets.insert(FormattedTicket(jsonTicket: ticket), at: formattedTickets.count)
                 }
